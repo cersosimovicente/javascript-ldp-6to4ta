@@ -12,6 +12,7 @@ cantidad:
 ```sh
 C:\proyectos\gestion_productos
   |____main.js
+  |____datos.js
   |____index.html
   |____style.css
 ```
