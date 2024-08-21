@@ -33,19 +33,54 @@ C:\proyectos\gestion_productos
 Como parte de nuestro proyecto, vamos a dividir el trabajo en varias entregas parciales para facilitar su desarrollo y revisión. Estas entregas parciales son fundamentales para asegurar que todos estamos avanzando en la dirección correcta y que podemos identificar y corregir problemas a medida que surgen.
 Entregas Parciales:
 
-Entregas Parciales:
+Etapa 1: Estructura del Proyecto y Configuración Inicial
+Fecha de entrega: [Establecer fecha]
 
-[Fecha: dd/mm/aaaa]: Entrega 1 - Diseño del proyecto - Funcionalidad básica
-Implementación de la tabla dinámica y manejo básico de los datos (añadir, eliminar y editar productos).
+Objetivos:
+Crear la estructura de carpetas del proyecto (C:\proyectos\gestion_productos).
+Configurar el archivo index.html con la estructura básica de HTML.
+Crear y vincular los archivos main.js, datos.js, y style.css en index.html.
+Publicar el repositorio inicial en GitHub.
+Entrega:
 
-[Fecha: dd/mm/aaaa]: Entrega 2 - Funcionalidad avanzada
-Añadir características como buscar, ordenar y filtrar productos.
+Enviar el enlace al repositorio de GitHub con la estructura inicial y los archivos básicos.
+Etapa 2: Implementación de Funcionalidades Básicas
+Fecha de entrega: [Establecer fecha]
 
-[Fecha: dd/mm/aaaa]: Entrega 3 - Integración y pruebas
-Integrar todas las funcionalidades y realizar pruebas exhaustivas para asegurar que todo funciona correctamente.
+Objetivos:
+Implementar el formulario para agregar nuevos productos.
+Guardar los productos en una lista en datos.js y mostrar la lista en la consola.
+Asegurar que los productos tengan los atributos id, nombre, descripcion, precio, y cantidad.
+Entrega:
 
-[Fecha: dd/mm/aaaa]: Entrega 4 - Documentación y presentación final
+Enviar el enlace al repositorio de GitHub con el código actualizado.
+Etapa 3: Renderizado y Manipulación de Productos
+Fecha de entrega: [Establecer fecha]
 
-Documentar el código, escribir un informe final del proyecto, y preparar una presentación para la defensa del trabajo.
+Objetivos:
+Implementar el renderizado de la lista de productos en una tabla utilizando el método map.
+Permitir la actualización y eliminación de productos desde la interfaz.
+Implementar la función de búsqueda para encontrar productos por nombre.
+Entrega:
 
+Enviar el enlace al repositorio de GitHub y una captura de pantalla mostrando la tabla de productos en el navegador.
+Etapa 4: Resumen de Precios e Interactividad
+Fecha de entrega: [Establecer fecha]
+
+Objetivos:
+Calcular y mostrar el precio total acumulado de los productos utilizando el método reduce.
+Asegurar que la tabla de productos se actualice dinámicamente al agregar, actualizar o eliminar productos.
+Aplicar estilo con CSS para mejorar la presentación de la tabla y el formulario.
+Entrega:
+
+Enviar el enlace al repositorio de GitHub con el código final.
+Etapa 5: Publicación y Documentación
+Fecha de entrega: [Establecer fecha]
+
+Objetivos:
+Publicar el proyecto en GitHub Pages.
+Documentar el proyecto en el archivo README.md del repositorio de GitHub, explicando el funcionamiento de la aplicación.
+Entrega Final:
+
+Enviar por Classroom el enlace al repositorio de GitHub y el enlace a la página publicada en GitHub Pages.
 
