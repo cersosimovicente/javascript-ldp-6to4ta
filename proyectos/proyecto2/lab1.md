@@ -29,4 +29,23 @@ C:\proyectos\gestion_productos
 5. Entrega del Proyecto:
    * Enviar por classroom el enlace al repositorio de GitHub y el enlace a la página publicada en GitHub Pages.
 
+## Formas de entrega
+Como parte de nuestro proyecto, vamos a dividir el trabajo en varias entregas parciales para facilitar su desarrollo y revisión. Estas entregas parciales son fundamentales para asegurar que todos estamos avanzando en la dirección correcta y que podemos identificar y corregir problemas a medida que surgen.
+Entregas Parciales:
+
+Entregas Parciales:
+
+[Fecha: dd/mm/aaaa]: Entrega 1 - Diseño del proyecto - Funcionalidad básica
+Implementación de la tabla dinámica y manejo básico de los datos (añadir, eliminar y editar productos).
+
+[Fecha: dd/mm/aaaa]: Entrega 2 - Funcionalidad avanzada
+Añadir características como buscar, ordenar y filtrar productos.
+
+[Fecha: dd/mm/aaaa]: Entrega 3 - Integración y pruebas
+Integrar todas las funcionalidades y realizar pruebas exhaustivas para asegurar que todo funciona correctamente.
+
+[Fecha: dd/mm/aaaa]: Entrega 4 - Documentación y presentación final
+
+Documentar el código, escribir un informe final del proyecto, y preparar una presentación para la defensa del trabajo.
+
 
