@@ -17,3 +17,22 @@ Leé cada consigna con detenimiento antes de escribir código. Las actividades s
 * **Verificación previa:** Probá el código en la consola del navegador o en Node.js antes de entregar.
 * **Restricción de bucles:** No se permiten bucles `for`, `while` ni variables globales mutables en las consignas del Nivel Intermedio y Avanzado.
 
+### Estructura mínima de cada archivo
+
+```javascript
+// ============================================================
+// Consigna N° [número] — Nivel: [Básico / Intermedio / Avanzado]
+// Alumno/a: [Tu nombre completo]
+// Fecha: [dd/mm/aaaa]
+// Descripción: [qué hace este ejercicio en una oración]
+// ============================================================
+
+// Datos de entrada (constantes, no variables)
+const misDatos = [...];
+
+// Funciones puras
+const miFuncion = (param) => ...;
+
+// Ejecución y resultados
+console.log(miFuncion(misDatos));
+```
