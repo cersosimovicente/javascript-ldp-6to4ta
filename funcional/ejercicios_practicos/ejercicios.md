@@ -27,7 +27,12 @@
 1. Define una función que reciba un nombre y devuelva un saludo, y se almacene en una variable llamada `saludar`
    
 #### Función pasada como argumento (callback) - Funcion de orden superior
-1. Crea una función de orden superior llamada `operacion` que reciba otra función (fn) y un número (valor) como argumentos para ejecutarla. Luego, define una función callback llamada `triplicar` y úsala dentro de operacion para calcular y mostrar en consola el triplicado de 9.
+1. Crea una función de orden superior llamada `operacion` que reciba otra función (fn) y un número (valor) como argumentos para ejecutarla. Luego, define una función callback llamada `triplicar` y úsala dentro de operacion para calcular y mostrar en consola el triplicado de 9. //se ve mejor con un ejemplo
+```js
+const operacion = (fn, valor) => fn(valor);
+const triplicar = (x) => x * 3;
+console.log(operacion(triplicar, 9));
+```
 
 ####  Función que retorna otra funcion -  Funcion de orden superior - Factory Function
 > Este tipo las funciones retornada se llaman  `Closure.`(porque mantiene acceso al entorno en el que nació). //se ve mejor con un ejemplo
