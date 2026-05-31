@@ -52,7 +52,10 @@ function crearSaludador(saludo) {
 const saludarHola = crearSaludador("Hola"); 
 console.log(saludarHola("Carlos")); // "Hola, Carlos!"
 ```
-### 7) Ejercicios: `FHO` como callback y factory
+### 7) Ejercicios: `HOF` como callback y factory
 - Enunciado (callback):
-   - Defini una funcion llamada `fho` que reciba un numero (almacenala en una variable) debe retornar el triple del numero recibido.
+   - Declara una expresión de función en fho que devuelva el triple de un número. Luego, crea la función procesarNumero(num, callback) para que ejecute dicho callback con el       número y muestre el resultado en consola.
+  
+- Enunciado (factory):
+   - Escribí una función de alto orden llamada crearMultiplicador que reciba un parámetro factor y devuelva una función interna; esta segunda función debe aceptar un número        num y retornar el producto de ambos valores, permitiendo así la creación de funciones multiplicadoras personalizadas mediante el mecanismo de clausura.
   
