@@ -15,4 +15,31 @@
 
 ### 3) Inmutabilidad con objetos
 1. Crea un objeto persona y usa spread para actualizar solo su edad.
-2. b) Crea un objeto nuevo que combine persona con una dirección.
+2. Crea un objeto nuevo que combine persona con una dirección.
+
+
+### Funciones como Valores (First-Class Functions)
+> En JavaScript las funciones son valores: pueden guardarse en variables, pasarse como argumentos a otras funciones y retornarse desde otras funciones.
+1. Define una función que reciba un nombre y devuelva un saludo, y se almacene en una variable llamada `saludar`
+   
+#### Función pasada como argumento (callback) - Funcion de orden superior
+1. Crea una función de orden superior llamada `operacion` que reciba otra función (fn) y un número (valor) como argumentos para ejecutarla. Luego, define una función callback llamada `triplicar` y úsala dentro de operacion para calcular y mostrar en consola el triplicado de 9.
+
+####  Función que retorna otra funcion -  Funcion de orden superior - Factory Function
+> Este tipo las funciones retornada se llaman  `Closure.`(porque mantiene acceso al entorno en el que nació). //se ve mejor con un ejemplo
+```js
+// FUNCIÓN FÁBRICA / DE ORDEN SUPERIOR
+// (Es de orden superior porque retorna una función)
+function crearSaludador(saludo) {
+    
+    // CLAUSURA (CLOSURE)
+    // (Es la función retornada; "recuerda" la variable 'saludo')
+    return function(nombre) {
+        return `${saludo}, ${nombre}!`;
+    };
+}
+
+// 'saludarHola' contiene la clausura con el saludo "Hola" guardado en memoria
+const saludarHola = crearSaludador("Hola"); 
+console.log(saludarHola("Carlos")); // "Hola, Carlos!"
+```
