@@ -22,11 +22,11 @@
 2. Crea un objeto nuevo que combine persona con una dirección.
 
 
-### Funciones como Valores (First-Class Functions)
+### 4) Funciones como Valores (First-Class Functions)
 > En JavaScript las funciones son valores: pueden guardarse en variables, pasarse como argumentos a otras funciones y retornarse desde otras funciones.
 1. Define una función que reciba un nombre y devuelva un saludo, y se almacene en una variable llamada `saludar`
    
-#### Función pasada como argumento (callback) - Funcion de orden superior
+### 5) Función pasada como argumento (callback) - Funcion de orden superior
 1. Crea una función de orden superior llamada `operacion` que reciba otra función (fn) y un número (valor) como argumentos para ejecutarla. Luego, define una función callback llamada `triplicar` y úsala dentro de operacion para calcular y mostrar en consola el triplicado de 9. //se ve mejor con un ejemplo
 ```js
 const operacion = (fn, valor) => fn(valor);
@@ -34,7 +34,7 @@ const triplicar = (x) => x * 3;
 console.log(operacion(triplicar, 9));
 ```
 
-####  Función que retorna otra funcion -  Funcion de orden superior - Factory Function
+#### 6) Función que retorna otra funcion -  Funcion de orden superior - Factory Function
 > Este tipo las funciones retornada se llaman  `Closure.`(porque mantiene acceso al entorno en el que nació). //se ve mejor con un ejemplo
 ```js
 // FUNCIÓN FÁBRICA / DE ORDEN SUPERIOR
@@ -52,3 +52,7 @@ function crearSaludador(saludo) {
 const saludarHola = crearSaludador("Hola"); 
 console.log(saludarHola("Carlos")); // "Hola, Carlos!"
 ```
+### 7) Ejercicios: `FHO` como callback y factory
+- Enunciado (callback):
+   - Defini una funcion llamada `fho` que reciba un numero (almacenala en una variable) debe retornar el triple del numero recibido.
+  
