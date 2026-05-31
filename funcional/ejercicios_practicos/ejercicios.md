@@ -1,9 +1,11 @@
 # Inmutabilidad en variables, arreglos y objetos
 # Funciones de primera clase First-Class Functions
+# Funciones Puras
 ## objetivo: 
 - El objetivo de estas actividades es practicar la creación de nuevas variables sin modificar las originales.
 - Practicar el uso de funciones que reciben funciones como argumento (FHO - Callback)
 - Practicar funciones que retornar funciones (FHO -  Factory Function -> Closure
+- Practicar el uso de funciones puras
 
 ### 1) Inmutabilidad de variables
 > Usa const para crear el valor original y crea uno nuevo sin reasignar la variable original.
@@ -58,4 +60,8 @@ console.log(saludarHola("Carlos")); // "Hola, Carlos!"
   
 - Enunciado (factory):
    - Escribí una función de alto orden llamada crearMultiplicador que reciba un parámetro factor y devuelva una función interna; esta segunda función debe aceptar un número        num y retornar el producto de ambos valores, permitiendo así la creación de funciones multiplicadoras personalizadas mediante el mecanismo de clausura.
-  
+     
+### 8) Funciones puras
+> Son aquellas que el mismo input, mismo output: Siempre devuelve el mismo resultado si recibe los mismos argumentos.Sin efectos secundarios: No modifica ninguna variable, objeto o estado fuera de su propio entorno.
+
+1. Crea una función pura llamada calcularTotal que reciba el precio de un producto y el porcentaje de impuesto, y devuelva el costo total sin modificar ninguna variable externa. Luego, invoca la función con diferentes valores y muestra los resultados en la consola.
