@@ -1,5 +1,9 @@
 # Inmutabilidad en variables, arreglos y objetos
-## objetivo: El objetivo de estas actividades es practicar la creación de nuevas variables sin modificar las originales.
+# Funciones de primera clase First-Class Functions
+## objetivo: 
+- El objetivo de estas actividades es practicar la creación de nuevas variables sin modificar las originales.
+- Practicar el uso de funciones que reciben funciones como argumento (FHO - Callback)
+- Practicar funciones que retornar funciones (FHO -  Factory Function -> Closure
 
 ### 1) Inmutabilidad de variables
 > Usa const para crear el valor original y crea uno nuevo sin reasignar la variable original.
