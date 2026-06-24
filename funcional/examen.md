@@ -1,4 +1,4 @@
-# Examen de Paradigma Funcional.
+# Examen de Paradigma Funcional
 
 ## 1) Verdadera (V) o Falsa (F) *(2 pts)*
 
