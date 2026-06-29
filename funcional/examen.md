@@ -5,10 +5,11 @@
 * **1.1** Una función pura puede modificar una variable declarada fuera de su cuerpo, siempre que no se note en el resultado. **(__)**
 * **1.2** El método `.filter()` modifica el array original eliminando los elementos que no cumplen la condición. **(__)**
 * **1.3** El método `.map()` siempre retorna un array de la misma longitud que el array original. **(__)**
+* **1.4** El operador spread (`...`) permite crear copias o combinar arrays. **(__)**
 
 ---
 
-## 2) Análisis de Código *(3 pts)*
+## 2) Análisis de Código *(5 pts)*
 
 Analice el código. Contiene errores que violan el paradigma funcional (mutaciones o impurezas).
 
@@ -33,7 +34,7 @@ _Escriba su respuesta aquí..._
 
 ---
 
-## 3) Convertir a función pura *(5 pts)*
+## 3) Convertir a función pura *(3 pts)*
 
 Modifique las siguientes funciones para que cumplan con los principios del paradigma funcional:
 
@@ -46,10 +47,3 @@ function agregarProducto(producto) {
 }
 ```
 
-### Función 2
-```javascript
-function aplicarDescuento(producto, porcentaje) {
-  producto.precio = producto.precio - (producto.precio * porcentaje / 100);
-  return producto;
-}
-```
