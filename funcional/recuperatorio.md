@@ -4,8 +4,8 @@ function calcularPrecioTotal(precio, impuesto) {
     const totalImpuesto = precio * impuesto;
     return precio + totalImpuesto;
 }
+//solucion
 const calcularPrecioTotal = (precio, impuesto) => precio + (precio * impuesto);
-
 // Invocación con un producto de $1000 y un impuesto del 21% (0.21)
 console.log("Precio total con impuesto:", calcularPrecioTotal(1000, 0.21)); 
 // Resultado en consola: 1200
@@ -20,7 +20,7 @@ function filtrarCarrito(productos, precioMaximo) {
         }
     });
     return productosValidos;
-
+//solucion
 const filtrarCarrito = (productos, precioMaximo) => 
   productos.filter(prod => prod.stock > 0 && prod.precio < precioMaximo);
 
